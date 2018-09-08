@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35066C18208A7A07000BECD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35066C17208A7A07000BECD7 /* GoogleService-Info.plist */; };
+		3506C66E209505CA00DFCE66 /* StudentQRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506C66D209505CA00DFCE66 /* StudentQRScannerViewController.swift */; };
+		3506C670209505E500DFCE66 /* StudentMyAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506C66F209505E500DFCE66 /* StudentMyAttendanceViewController.swift */; };
+		3517BF38208D4815007C4EC1 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517BF37208D4815007C4EC1 /* BaseTabBarViewController.swift */; };
+		3517BF3A208D492F007C4EC1 /* TutorClassHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517BF39208D492F007C4EC1 /* TutorClassHomeViewController.swift */; };
+		3517BF3C208D4A9A007C4EC1 /* TutorQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517BF3B208D4A9A007C4EC1 /* TutorQRCodeViewController.swift */; };
+		3517BF3E208D4AF4007C4EC1 /* TutorMyStudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517BF3D208D4AF4007C4EC1 /* TutorMyStudentsViewController.swift */; };
+		3517BF40208D4B10007C4EC1 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517BF3F208D4B10007C4EC1 /* MyProfileViewController.swift */; };
+		356A078B2096B43800585C52 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A078A2096B43800585C52 /* ColorsExtensions.swift */; };
+		35A6563B2089A1D500BD846E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6563A2089A1D500BD846E /* AppDelegate.swift */; };
+		35A6563D2089A1D500BD846E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6563C2089A1D500BD846E /* LoginViewController.swift */; };
+		35A656422089A1DE00BD846E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A656412089A1DE00BD846E /* Assets.xcassets */; };
+		35A656502089A1DE00BD846E /* QR_AttendanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6564F2089A1DE00BD846E /* QR_AttendanceTests.swift */; };
+		35A6565B2089A1DE00BD846E /* QR_AttendanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6565A2089A1DE00BD846E /* QR_AttendanceUITests.swift */; };
+		35C749A9208AB07B005AE981 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C749A8208AB07B005AE981 /* ViewController+Extensions.swift */; };
+		35C749AB208AB0B1005AE981 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C749AA208AB0B1005AE981 /* LoadingScreen.swift */; };
+		35CB1191208A8B73002663EF /* MyClassesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB1190208A8B73002663EF /* MyClassesTableViewController.swift */; };
+		35CB1193208AAE04002663EF /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CB1192208AAE04002663EF /* RegistrationViewController.swift */; };
+		35E3284620917E0900B67EB1 /* MiscExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3284520917E0800B67EB1 /* MiscExtensions.swift */; };
+		35E328532094297600B67EB1 /* DisplayQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E328522094297600B67EB1 /* DisplayQRCodeViewController.swift */; };
+		35F53044208BDE9C00C724F3 /* AddNewClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F53043208BDE9C00C724F3 /* AddNewClassViewController.swift */; };
+		3DE52CDED20447F35E525E83 /* Pods_QR_Attendance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3525F637B1006741ECEF9DB5 /* Pods_QR_Attendance.framework */; };
+		7C24D02B9A1433987214B42F /* Pods_QR_AttendanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECF65B260633D8540E4FA0F /* Pods_QR_AttendanceUITests.framework */; };
+		A8FC52F17C96637785EC3B26 /* Pods_QR_AttendanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877B0E383ABB988C53F6CBF7 /* Pods_QR_AttendanceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35A6564C2089A1DE00BD846E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6562F2089A1D500BD846E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A656362089A1D500BD846E;
+			remoteInfo = "QR Attendance";
+		};
+		35A656572089A1DE00BD846E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35A6562F2089A1D500BD846E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A656362089A1D500BD846E;
+			remoteInfo = "QR Attendance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227B227D3722881AD4FA3D98 /* Pods-QR AttendanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR AttendanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR AttendanceTests/Pods-QR AttendanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		35066C17208A7A07000BECD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3506C66D209505CA00DFCE66 /* StudentQRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentQRScannerViewController.swift; sourceTree = "<group>"; };
+		3506C66F209505E500DFCE66 /* StudentMyAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMyAttendanceViewController.swift; sourceTree = "<group>"; };
+		3517BF37208D4815007C4EC1 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		3517BF39208D492F007C4EC1 /* TutorClassHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorClassHomeViewController.swift; sourceTree = "<group>"; };
+		3517BF3B208D4A9A007C4EC1 /* TutorQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorQRCodeViewController.swift; sourceTree = "<group>"; };
+		3517BF3D208D4AF4007C4EC1 /* TutorMyStudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorMyStudentsViewController.swift; sourceTree = "<group>"; };
+		3517BF3F208D4B10007C4EC1 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		3525F637B1006741ECEF9DB5 /* Pods_QR_Attendance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_Attendance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		356A078A2096B43800585C52 /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
+		35A656372089A1D500BD846E /* QR Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Attendance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6563A2089A1D500BD846E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35A6563C2089A1D500BD846E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		35A656412089A1DE00BD846E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35A656462089A1DE00BD846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A6564B2089A1DE00BD846E /* QR AttendanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR AttendanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6564F2089A1DE00BD846E /* QR_AttendanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_AttendanceTests.swift; sourceTree = "<group>"; };
+		35A656512089A1DE00BD846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A656562089A1DE00BD846E /* QR AttendanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QR AttendanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6565A2089A1DE00BD846E /* QR_AttendanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_AttendanceUITests.swift; sourceTree = "<group>"; };
+		35A6565C2089A1DE00BD846E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C749A8208AB07B005AE981 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
+		35C749AA208AB0B1005AE981 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		35CB1190208A8B73002663EF /* MyClassesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClassesTableViewController.swift; sourceTree = "<group>"; };
+		35CB1192208AAE04002663EF /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		35E3284520917E0800B67EB1 /* MiscExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscExtensions.swift; sourceTree = "<group>"; };
+		35E328522094297600B67EB1 /* DisplayQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayQRCodeViewController.swift; sourceTree = "<group>"; };
+		35F53043208BDE9C00C724F3 /* AddNewClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewClassViewController.swift; sourceTree = "<group>"; };
+		3DC3417229BF67AFFB6860D3 /* Pods-QR AttendanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR AttendanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR AttendanceUITests/Pods-QR AttendanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ECF65B260633D8540E4FA0F /* Pods_QR_AttendanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_AttendanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		877B0E383ABB988C53F6CBF7 /* Pods_QR_AttendanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR_AttendanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989BFF239232E4638F554A2B /* Pods-QR Attendance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Attendance.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR Attendance/Pods-QR Attendance.release.xcconfig"; sourceTree = "<group>"; };
+		A8F4BF845E737776D430B1D7 /* Pods-QR AttendanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR AttendanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR AttendanceUITests/Pods-QR AttendanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7FA9BF167937CB097E435D1 /* Pods-QR AttendanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR AttendanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR AttendanceTests/Pods-QR AttendanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0AB87A28C49E215C10E0349 /* Pods-QR Attendance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR Attendance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR Attendance/Pods-QR Attendance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35A656342089A1D500BD846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE52CDED20447F35E525E83 /* Pods_QR_Attendance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656482089A1DE00BD846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FC52F17C96637785EC3B26 /* Pods_QR_AttendanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656532089A1DE00BD846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C24D02B9A1433987214B42F /* Pods_QR_AttendanceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3517BF35208D47A7007C4EC1 /* Tutor Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3517BF39208D492F007C4EC1 /* TutorClassHomeViewController.swift */,
+				3517BF3B208D4A9A007C4EC1 /* TutorQRCodeViewController.swift */,
+				35E328522094297600B67EB1 /* DisplayQRCodeViewController.swift */,
+				3517BF3D208D4AF4007C4EC1 /* TutorMyStudentsViewController.swift */,
+			);
+			path = "Tutor Tabs";
+			sourceTree = "<group>";
+		};
+		3517BF36208D47C1007C4EC1 /* Student Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3506C66D209505CA00DFCE66 /* StudentQRScannerViewController.swift */,
+				3506C66F209505E500DFCE66 /* StudentMyAttendanceViewController.swift */,
+			);
+			path = "Student Tabs";
+			sourceTree = "<group>";
+		};
+		35A6562E2089A1D500BD846E = {
+			isa = PBXGroup;
+			children = (
+				35A656392089A1D500BD846E /* QR Attendance */,
+				35A6564E2089A1DE00BD846E /* QR AttendanceTests */,
+				35A656592089A1DE00BD846E /* QR AttendanceUITests */,
+				35A656382089A1D500BD846E /* Products */,
+				DA407B3FDF5AD9D7CC313C30 /* Pods */,
+				824B1F2306C59CBB9D9CDB40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35A656382089A1D500BD846E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35A656372089A1D500BD846E /* QR Attendance.app */,
+				35A6564B2089A1DE00BD846E /* QR AttendanceTests.xctest */,
+				35A656562089A1DE00BD846E /* QR AttendanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35A656392089A1D500BD846E /* QR Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				3517BF36208D47C1007C4EC1 /* Student Tabs */,
+				3517BF35208D47A7007C4EC1 /* Tutor Tabs */,
+				35E32849209425C600B67EB1 /* Common Tabs */,
+				35A656412089A1DE00BD846E /* Assets.xcassets */,
+				35A6563A2089A1D500BD846E /* AppDelegate.swift */,
+				35A6563C2089A1D500BD846E /* LoginViewController.swift */,
+				35CB1192208AAE04002663EF /* RegistrationViewController.swift */,
+				35CB1190208A8B73002663EF /* MyClassesTableViewController.swift */,
+				35F53043208BDE9C00C724F3 /* AddNewClassViewController.swift */,
+				3517BF37208D4815007C4EC1 /* BaseTabBarViewController.swift */,
+				35C749A7208AAFC3005AE981 /* Extensions */,
+				35066C17208A7A07000BECD7 /* GoogleService-Info.plist */,
+				35A656462089A1DE00BD846E /* Info.plist */,
+			);
+			path = "QR Attendance";
+			sourceTree = "<group>";
+		};
+		35A6564E2089A1DE00BD846E /* QR AttendanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				35A6564F2089A1DE00BD846E /* QR_AttendanceTests.swift */,
+				35A656512089A1DE00BD846E /* Info.plist */,
+			);
+			path = "QR AttendanceTests";
+			sourceTree = "<group>";
+		};
+		35A656592089A1DE00BD846E /* QR AttendanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35A6565A2089A1DE00BD846E /* QR_AttendanceUITests.swift */,
+				35A6565C2089A1DE00BD846E /* Info.plist */,
+			);
+			path = "QR AttendanceUITests";
+			sourceTree = "<group>";
+		};
+		35C749A7208AAFC3005AE981 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35C749A8208AB07B005AE981 /* ViewController+Extensions.swift */,
+				35C749AA208AB0B1005AE981 /* LoadingScreen.swift */,
+				35E3284520917E0800B67EB1 /* MiscExtensions.swift */,
+				356A078A2096B43800585C52 /* ColorsExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35E32849209425C600B67EB1 /* Common Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				3517BF3F208D4B10007C4EC1 /* MyProfileViewController.swift */,
+			);
+			path = "Common Tabs";
+			sourceTree = "<group>";
+		};
+		824B1F2306C59CBB9D9CDB40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3525F637B1006741ECEF9DB5 /* Pods_QR_Attendance.framework */,
+				877B0E383ABB988C53F6CBF7 /* Pods_QR_AttendanceTests.framework */,
+				4ECF65B260633D8540E4FA0F /* Pods_QR_AttendanceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA407B3FDF5AD9D7CC313C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0AB87A28C49E215C10E0349 /* Pods-QR Attendance.debug.xcconfig */,
+				989BFF239232E4638F554A2B /* Pods-QR Attendance.release.xcconfig */,
+				B7FA9BF167937CB097E435D1 /* Pods-QR AttendanceTests.debug.xcconfig */,
+				227B227D3722881AD4FA3D98 /* Pods-QR AttendanceTests.release.xcconfig */,
+				A8F4BF845E737776D430B1D7 /* Pods-QR AttendanceUITests.debug.xcconfig */,
+				3DC3417229BF67AFFB6860D3 /* Pods-QR AttendanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35A656362089A1D500BD846E /* QR Attendance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A6565F2089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR Attendance" */;
+			buildPhases = (
+				D7D098EDE28174170D43A65D /* [CP] Check Pods Manifest.lock */,
+				35A656332089A1D500BD846E /* Sources */,
+				35A656342089A1D500BD846E /* Frameworks */,
+				35A656352089A1D500BD846E /* Resources */,
+				BA317C2ABDC869C1F5AE8567 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Attendance";
+			productName = "QR Attendance";
+			productReference = 35A656372089A1D500BD846E /* QR Attendance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35A6564A2089A1DE00BD846E /* QR AttendanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A656622089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR AttendanceTests" */;
+			buildPhases = (
+				DC16C1A765F7E259AECE081B /* [CP] Check Pods Manifest.lock */,
+				35A656472089A1DE00BD846E /* Sources */,
+				35A656482089A1DE00BD846E /* Frameworks */,
+				35A656492089A1DE00BD846E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A6564D2089A1DE00BD846E /* PBXTargetDependency */,
+			);
+			name = "QR AttendanceTests";
+			productName = "QR AttendanceTests";
+			productReference = 35A6564B2089A1DE00BD846E /* QR AttendanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35A656552089A1DE00BD846E /* QR AttendanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A656652089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR AttendanceUITests" */;
+			buildPhases = (
+				2C8C3290B46696CF0F080CD6 /* [CP] Check Pods Manifest.lock */,
+				35A656522089A1DE00BD846E /* Sources */,
+				35A656532089A1DE00BD846E /* Frameworks */,
+				35A656542089A1DE00BD846E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A656582089A1DE00BD846E /* PBXTargetDependency */,
+			);
+			name = "QR AttendanceUITests";
+			productName = "QR AttendanceUITests";
+			productReference = 35A656562089A1DE00BD846E /* QR AttendanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35A6562F2089A1D500BD846E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ram Sri Charan";
+				TargetAttributes = {
+					35A656362089A1D500BD846E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					35A6564A2089A1DE00BD846E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 35A656362089A1D500BD846E;
+					};
+					35A656552089A1DE00BD846E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 35A656362089A1D500BD846E;
+					};
+				};
+			};
+			buildConfigurationList = 35A656322089A1D500BD846E /* Build configuration list for PBXProject "QR Attendance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35A6562E2089A1D500BD846E;
+			productRefGroup = 35A656382089A1D500BD846E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35A656362089A1D500BD846E /* QR Attendance */,
+				35A6564A2089A1DE00BD846E /* QR AttendanceTests */,
+				35A656552089A1DE00BD846E /* QR AttendanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35A656352089A1D500BD846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35066C18208A7A07000BECD7 /* GoogleService-Info.plist in Resources */,
+				35A656422089A1DE00BD846E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656492089A1DE00BD846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656542089A1DE00BD846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8C3290B46696CF0F080CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR AttendanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA317C2ABDC869C1F5AE8567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QR Attendance/Pods-QR Attendance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QR Attendance/Pods-QR Attendance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D098EDE28174170D43A65D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR Attendance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC16C1A765F7E259AECE081B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QR AttendanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35A656332089A1D500BD846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6563D2089A1D500BD846E /* LoginViewController.swift in Sources */,
+				35E3284620917E0900B67EB1 /* MiscExtensions.swift in Sources */,
+				3506C66E209505CA00DFCE66 /* StudentQRScannerViewController.swift in Sources */,
+				3517BF3C208D4A9A007C4EC1 /* TutorQRCodeViewController.swift in Sources */,
+				35CB1191208A8B73002663EF /* MyClassesTableViewController.swift in Sources */,
+				35C749AB208AB0B1005AE981 /* LoadingScreen.swift in Sources */,
+				3517BF3A208D492F007C4EC1 /* TutorClassHomeViewController.swift in Sources */,
+				35F53044208BDE9C00C724F3 /* AddNewClassViewController.swift in Sources */,
+				3517BF40208D4B10007C4EC1 /* MyProfileViewController.swift in Sources */,
+				3517BF3E208D4AF4007C4EC1 /* TutorMyStudentsViewController.swift in Sources */,
+				35CB1193208AAE04002663EF /* RegistrationViewController.swift in Sources */,
+				356A078B2096B43800585C52 /* ColorsExtensions.swift in Sources */,
+				3506C670209505E500DFCE66 /* StudentMyAttendanceViewController.swift in Sources */,
+				35A6563B2089A1D500BD846E /* AppDelegate.swift in Sources */,
+				35E328532094297600B67EB1 /* DisplayQRCodeViewController.swift in Sources */,
+				35C749A9208AB07B005AE981 /* ViewController+Extensions.swift in Sources */,
+				3517BF38208D4815007C4EC1 /* BaseTabBarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656472089A1DE00BD846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A656502089A1DE00BD846E /* QR_AttendanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A656522089A1DE00BD846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A6565B2089A1DE00BD846E /* QR_AttendanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35A6564D2089A1DE00BD846E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A656362089A1D500BD846E /* QR Attendance */;
+			targetProxy = 35A6564C2089A1DE00BD846E /* PBXContainerItemProxy */;
+		};
+		35A656582089A1DE00BD846E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A656362089A1D500BD846E /* QR Attendance */;
+			targetProxy = 35A656572089A1DE00BD846E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35A6565D2089A1DE00BD846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35A6565E2089A1DE00BD846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35A656602089A1DE00BD846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AB87A28C49E215C10E0349 /* Pods-QR Attendance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35A656612089A1DE00BD846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989BFF239232E4638F554A2B /* Pods-QR Attendance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR Attendance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-Attendance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35A656632089A1DE00BD846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FA9BF167937CB097E435D1 /* Pods-QR AttendanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR AttendanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-AttendanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Attendance.app/QR Attendance";
+			};
+			name = Debug;
+		};
+		35A656642089A1DE00BD846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227B227D3722881AD4FA3D98 /* Pods-QR AttendanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR AttendanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-AttendanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QR Attendance.app/QR Attendance";
+			};
+			name = Release;
+		};
+		35A656662089A1DE00BD846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F4BF845E737776D430B1D7 /* Pods-QR AttendanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR AttendanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-AttendanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Attendance";
+			};
+			name = Debug;
+		};
+		35A656672089A1DE00BD846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC3417229BF67AFFB6860D3 /* Pods-QR AttendanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RW6DCG4D4G;
+				INFOPLIST_FILE = "QR AttendanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ram-Sri-Charan.QR-AttendanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "QR Attendance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35A656322089A1D500BD846E /* Build configuration list for PBXProject "QR Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A6565D2089A1DE00BD846E /* Debug */,
+				35A6565E2089A1DE00BD846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A6565F2089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR Attendance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A656602089A1DE00BD846E /* Debug */,
+				35A656612089A1DE00BD846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A656622089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR AttendanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A656632089A1DE00BD846E /* Debug */,
+				35A656642089A1DE00BD846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A656652089A1DE00BD846E /* Build configuration list for PBXNativeTarget "QR AttendanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A656662089A1DE00BD846E /* Debug */,
+				35A656672089A1DE00BD846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35A6562F2089A1D500BD846E /* Project object */;
+}
