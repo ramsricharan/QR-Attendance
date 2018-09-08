@@ -24,25 +24,36 @@ in the fastest way possible.
 ## Idea
    The main intention behind develping this app is to speed up the attendance taking process. QR Codes can 
    be scanned within fraction of seconds. With my app, the attendance for the entire class can be taken 
-   within 1-2 mins. This saves a lot of valuble time which can be used to teach something else.
+   within **1-2 mins**. This saves a lot of valuble time which can be used to teach something else.
    
    
 ## Working
-   1. It all starts when teacher creates a new attendance QR Code for the day. The QR Code is displayed on 
-   their phones, so they can ask each individual student to come and scan their phone to get the attendance. 
-   Or they can project the QR Code on to the Class Room projector using the public link provided by the app.
+   1. It all starts with the teacher when they are ready to take the attendance. They should generate the 
+   QR Code for the given day by selecting few options like the QR Code validity period and Size of Classroom. 
+   
+   2. They have two ways in which they can presen the QR Code to the class. The fastest way is to display 
+   that QR Code on the classroom projector using the public link provided by the app or more time consuming
+   way is to ask each individual student to scan that code directly from their phones.
    
    2. Now Students in the class should scan this code. The app marks the student present only if he/she is 
    within the class radius.
    
+   3. Teachers can track the detailed attendance history of each individual student in their class and can 
+   make any changes if necessary. Students can track their personal attendance history.
    
    
    ## Technical Info
-   * Used Firebase database for User Authentication, Database and Storage.
+   * This app has been built entirely on **Firebase**. Firebase Authentication is used to handle Login and 
+   Signup work flow of users. Firebase Database is used to store the attendnace and other user information. 
+   Firebase Storage is used to store the QRCodes and Profile Images.
    * Used **AVFoundation** library to generating and providing camera view for scanning the code.
-   * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.
+   * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.ffd 
    
    
+   
+   ## Demos
+   **Screen Shots**
+   [[https://github.com/ramsricharan/QR-Attendance/blob/master/Screen%20shot/IMG_4009.png|alt=octocat]]
    
    
    
