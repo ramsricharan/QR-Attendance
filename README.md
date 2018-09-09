@@ -1,5 +1,6 @@
-# QR-Attendance
-**The Fastest attendance taking app. It uses QR Code Technology to mark attendance of the class.**
+# QR Attendance
+**The Fastest attendance taking app. It uses QR Code Technology and Location Services to mark attendance fast
+and accurate.**
 
 
 ### Project Setup
