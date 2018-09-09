@@ -54,9 +54,9 @@ in the fastest way possible.
    
    
    ## Demos
-   **Demo Video:** [Youtube](https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be)
-   
-   **Documentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
+   * **Screen Shots:** [Click Here](https://github.com/ramsricharan/QR-Attendance/tree/master/Screen%20shot)
+   * **Demo Video:** [Youtube](https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be)
+   * **Documentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
    
    
    
