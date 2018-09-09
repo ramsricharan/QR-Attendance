@@ -47,13 +47,13 @@ in the fastest way possible.
    Signup workflow of users. Firebase Database is used to store the attendance and other user information. 
    Firebase Storage is used to store the QRCodes and Profile Images.
    * Used **AVFoundation** library to generating and providing camera view for scanning the code.
-   * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.ffd 
+   * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.
+   * Implemented basic animaitons using **Core Animation**.
    
    
    
    ## Demos
    **Demo Video:** [Youtube](https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be)
-   
    **Deocumentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
    
    
