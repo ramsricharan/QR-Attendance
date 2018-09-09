@@ -54,7 +54,8 @@ in the fastest way possible.
    
    ## Demos
    **Demo Video:** [Youtube](https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be)
-   **Deocumentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
+   
+   **Documentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
    
    
    
