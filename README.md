@@ -46,7 +46,7 @@ in the fastest way possible.
    * This app has been built entirely on **Firebase**. Firebase Authentication is used to handle Login and 
    Signup workflow of users. Firebase Database is used to store the attendance and other user information. 
    Firebase Storage is used to store the QRCodes and Profile Images.
-   * Used **AVFoundation** library to generating and providing camera view for scanning the code.
+   * Used **AVFoundation** library to generating QR Codes and providing camera view for scanning the code.
    * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.
    * Implemented basic animaitons using **Core Animation**.
    
