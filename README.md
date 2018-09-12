@@ -3,7 +3,7 @@
 and accurate.**
 
 
-### Project Setup
+## Project Setup
 ```
  Category: Academic Project
  Programming Language: Swift 4
@@ -11,7 +11,8 @@ and accurate.**
  Platform: iOS
  ```
  
- ## Motive
+
+## Motive
    My professor used to spend almost 5-6 mins during the class hours to take the attendance of the class. 
 But then people used to walk out of the class as soon as the attendance has been marked. To avoid that,
 my professor came up with a new idea i.e to take attendance in the beginning and also at the end of the class. 
@@ -44,7 +45,7 @@ in their seats and answer the attendance in the fastest way possible.
    make any changes if necessary. Students can track their personal attendance history.
    
    
-   ## Technical Info
+## Technical Info
    * This app has been built entirely on **Firebase**. Firebase Authentication is used to handle Login and 
    Signup workflow of users. Firebase Database is used to store the attendance and other user information. 
    Firebase Storage is used to store the QRCodes and Profile Images.
