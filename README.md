@@ -22,6 +22,7 @@ Coming from a generation where students pull out their phones to take a picture 
 the teacher to save valuable time :wink:, I wanted to develop something by which students can sit right
 in their seats and answer the attendance in the fastest way possible.
 
+---
 
 ## Intent
    The main intention behind developing this app is to speed up the attendance taking process. 
@@ -29,6 +30,7 @@ in their seats and answer the attendance in the fastest way possible.
    for the entire class just under **1-2 mins**. This saves a lot of valuable time which can be used to 
    teach something productive.
    
+---
    
 ## Working
    1. It all starts with the teacher when they are ready to take the attendance. They should generate the 
@@ -44,6 +46,7 @@ in their seats and answer the attendance in the fastest way possible.
    3. Teachers can track the detailed attendance history of each individual student in their class and can
    make any changes if necessary. Students can track their personal attendance history.
    
+---
    
 ## Technical Info
    * This app has been built entirely on **Firebase**. Firebase Authentication is used to handle Login and 
@@ -53,7 +56,7 @@ in their seats and answer the attendance in the fastest way possible.
    * Used **CoreLocation Service** to get the users location which is used to validate their presence in the class.
    * Implemented basic animaitons using **Core Animation**.
    
-   
+---- 
    
 ## Demos
    * **Screen Shots:** [Click Here](https://github.com/ramsricharan/QR-Attendance/tree/master/Screen%20shot)
@@ -63,6 +66,10 @@ in their seats and answer the attendance in the fastest way possible.
     <img src="Screen%20shot/IMG_4002.png" width="200">
     <img src="Screen%20shot/IMG_4004.png" width="200">
     <img src="Screen%20shot/IMG_4005.png" width="200">
+    <img src="Screen%20shot/IMG_4007.png" width="200">
+    <img src="Screen%20shot/IMG_4011.png" width="200">
+    <img src="Screen%20shot/IMG_4012.png" width="200">  
+    <img src="Screen%20shot/IMG_4019.png" width="200">
   </p>
    
    
