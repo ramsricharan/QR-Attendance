@@ -73,6 +73,11 @@ in their seats and answer the attendance in the fastest way possible.
     <img src="Screen%20shot/IMG_4019.png" width="200">
   </p>
   
+### Video
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be"><img src="https://img.youtube.com/vi/ttO0YJeC_aI/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
+  
   
   
 ---- 
