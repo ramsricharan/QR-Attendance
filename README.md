@@ -57,6 +57,16 @@ in their seats and answer the attendance in the fastest way possible.
    
 ## Demos
    * **Screen Shots:** [Click Here](https://github.com/ramsricharan/QR-Attendance/tree/master/Screen%20shot)
+   <p float="left">
+    <img src="Screen%20shot/IMG_3994.png" width="200">
+    <img src="Screen%20shot/IMG_3998.png" width="200">
+    <img src="Screen%20shot/IMG_4002.png" width="200">
+    <img src="Screen%20shot/IMG_4004.png" width="200">
+    <img src="Screen%20shot/IMG_4005.png" width="200">
+  </p>
+   
+   
+   
    * **Demo Video:** [Youtube](https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be)
    * **Documentation:** [Download PDF](https://drive.google.com/open?id=1ceZpQ5zsIT0cVKSUYMflW-XmKAVDRHYX)
    
