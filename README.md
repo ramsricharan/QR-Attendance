@@ -59,7 +59,8 @@ in their seats and answer the attendance in the fastest way possible.
 ---- 
    
 ## Demos
-   * **Screen Shots:** [Click Here](https://github.com/ramsricharan/QR-Attendance/tree/master/Screen%20shot)
+   
+   ###Screenshots
    <p float="left">
     <img src="Screen%20shot/IMG_3994.png" width="200">
     <img src="Screen%20shot/IMG_3998.png" width="200">
@@ -71,6 +72,9 @@ in their seats and answer the attendance in the fastest way possible.
     <img src="Screen%20shot/IMG_4012.png" width="200">  
     <img src="Screen%20shot/IMG_4019.png" width="200">
   </p>
+     [More](https://github.com/ramsricharan/QR-Attendance/tree/master/Screen%20shot)
+
+  
    
    
    
