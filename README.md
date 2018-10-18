@@ -74,7 +74,7 @@ in their seats and answer the attendance in the fastest way possible.
   </p>
   
 ### Video
-<div align="center">
+<div align="left">
   <a href="https://www.youtube.com/watch?v=ttO0YJeC_aI&feature=youtu.be"><img src="https://img.youtube.com/vi/ttO0YJeC_aI/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
   
